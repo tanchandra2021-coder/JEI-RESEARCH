@@ -1,0 +1,32 @@
+# Requirements for Gemini SES Bias Research
+# Tested on Google Colab (Python 3.10+)
+
+# Core data science
+pandas>=1.5.0
+numpy>=1.23.0
+scipy>=1.9.0
+statsmodels>=0.13.0
+matplotlib>=3.6.0
+
+# NLP metrics
+nltk>=3.7
+rouge-score>=0.1.2
+sentence-transformers>=2.2.0
+
+# Emotion detection
+transformers>=4.25.0
+torch>=1.13.0
+
+# Machine learning (classifiers)
+scikit-learn>=1.1.0
+
+# Google Cloud / Vertex AI
+google-cloud-aiplatform>=1.38.0
+google-cloud-storage>=2.7.0
+vertexai>=1.38.0
+
+# Hugging Face datasets
+datasets>=2.14.0
+
+# Google Colab utilities (pre-installed in Colab)
+# google-colab
